@@ -266,4 +266,13 @@ if __name__ == '__main__':
     #
     process( args.csv_filename, curr_pair[ 0 ] + curr_pair[ 1 ], from_date, to_date, \
              int(args.period), float(args.min_ht), zone_width, int(args.min_touches) )
-
+    
+    csv_filename = 'EURCAD_Candlestick_4_Hour_BID_01.01.2014-29.07.2022'
+    curr_pair = '--pair EUR / CAD'
+    from_date = '--fromdate 01/01/2010'
+    to_date = '--todate 1/11/2022'
+    period = '--period 250'
+    min_ht = '--min_ht 0.02'
+    zone_width = '--zone_width 0.0075'
+    min_touches = '--min_touches 4'
+    
